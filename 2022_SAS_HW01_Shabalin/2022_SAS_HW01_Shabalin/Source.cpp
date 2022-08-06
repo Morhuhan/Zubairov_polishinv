@@ -303,10 +303,9 @@ int culc_postfix(char* postfix) {
 
         case SOF:
             printf("Переполнение стека!\n");
-            return(1);
-
-            ptr++;
+            return(1);      
         }
+        ptr++;
     }
 }
 
